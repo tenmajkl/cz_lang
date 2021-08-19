@@ -1,0 +1,7 @@
+#zahrň<stdio.h>
+
+celé_číslo hlavní()
+{
+    tiskni("Dobrý den světe!").
+    vrať 0.
+}
