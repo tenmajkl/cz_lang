@@ -1,5 +1,5 @@
 from sys import argv
-import compiler
+from cli import run
 
 if __name__ == "__main__":
-    compiler.compile(argv[1])
+    run(argv)

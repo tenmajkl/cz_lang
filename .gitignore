@@ -1,2 +1,9 @@
 **/*.sw*
 **/__pycache__/
+bin/
+include/
+lib/
+dist/
+*.cfg
+*.spec
+build/
