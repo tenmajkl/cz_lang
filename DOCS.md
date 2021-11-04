@@ -1,5 +1,5 @@
 # Jazyk Č - Dokumentace
-Jazyk Č je ezoterický jazyk se syntaxemi podobnými jazyku C, akorát v češtině. K překladu jazyk Č využívá překladač napsaný v pythonu.
+Jazyk Č je ezoterický jazyk se syntaxemi podobnými jazyku C, akorát v češtině. K překladu jazyk Č využívá překladač napsaný v pythonu. Velice se nedoporučuje používat jazyk pro seriozni projekty. Proč by to taky někdo dělal?!
 
 # Instalace
 Pro instalaci překladače, naklonujte repozitář `git clone https://github.com/TENMAJKL/cz_lang.git` a ve složce cz_lang instalujte pomocí `make install`
@@ -62,6 +62,8 @@ celé_číslo hlavní()
 }
 ```
 
+# Vlastní jazyk
+Jelikož je překladač volně dostupný, umožňuje tak vytváření podobných primitivních a v produkci nepouzitelnych jazyků pro pobavení. Stačí pouze přepsat klíčová slova v `src/keywords.py` a další věci typu koncovky. (V budoucnu budou tyto věci v proměnných podobně jako klíčová slova)
 # Poděkování
 - @CoolFido který díky Matrix08 přišel na tento geniální nápad
 - Komukoliv kdo udělal tutorial na tvorbu vlastního jazyka a to i přes fakt, že reálně celý jazyk stojí na regexu.

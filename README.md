@@ -1,5 +1,5 @@
 # Jazyk Č 🥴
-Jazyk Č je český překladač jazyka c napsaný v pythonu.\
+Jazyk Č je český překladač jazyka c napsaný v pythonu. Jazyk Č přináší syntaxe které vychází z českého jazyka. Kultivovaný občan tak nebude mít problém přejít od prodeje nemotivotstí k programování.\
 Dokumentaci naleznete v souboru DOCS.md.
 
 # Jak to funguje?
